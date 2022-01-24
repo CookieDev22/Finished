@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Identify the image</title>
+	<link rel="stylesheet" type="text/css" href="v2.css">
+</head>
+<body>
+	<div id="inprogress">
+		<div id="main">
+			<h1>Identify the image</h1>
+			<h3>Timer: <span id="timer"></span></h3>
+			<h3>Score: <span id="result"></span></h3>
+			<p id="instruction"></p>
+			<img id="question">
+			<div id="container">
+				<img class="box" id="0">
+				<img class="box" id="1">
+				<img class="box" id="2">
+				<img class="box" id="3">
+			</div>
+			<button onclick="initialShow()">Start Game</button>
+			<button onclick="reload()">Restart Game</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="v2.js"></script>
+</body>
+</html>

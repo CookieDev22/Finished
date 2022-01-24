@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Christopher Hanna's Portfolio</title>
+  <meta name="description" content="This page is my portfolio page">
+  <meta name="author" content="Christopher Hanna">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+
+</head>
+<body>
+  <header class="main_nav green">
+    <div class="container">
+      <div class="twelve columns">
+        <div class="logo"><a href="Memory game/index.html">My Games</a></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div id="typewriter" style="background-color: #000;" class="twelve columns">
+      <h2 id="typetex0" style="color: #fff;"></h2>
+      <h2 id="typetex1" style="color: #fff;"></h2>
+      <h2 id="typetex2" style="color: #fff;"></h2>
+    </div>
+  </div>
+
+  <div class="container main">
+    <div class="row">
+      <div class="four columns">
+        <img src="https://th.bing.com/th/id/R.52db877e9e5a3dfa84e6a3551df166d1?rik=%2bnGtinL3S4yiQw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_427321.png&ehk=iOpIyJR9ZYRPQdmrKfk38tSoWSnsA8Cs8fTh%2b%2fMG5zk%3d&risl=&pid=ImgRaw&r=0">
+      </div>
+      <div class="four columns">
+        <img src="https://th.bing.com/th/id/R.4e16475f94b1b43de6e8a023e0a1590f?rik=bi1ENzUTiB%2bVuA&riu=http%3a%2f%2fwww.pixlogix.com%2fwp-content%2fthemes%2fpixlogix%2fimages%2fhtml-css-js-logo.png&ehk=ijXsvoM2%2f5pWm%2fcLTBB%2bdwvkKcOiiD9bTsmUsNfhLKc%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
+      </div>
+      <div class="four columns">
+        <img src="https://th.bing.com/th/id/R.52db877e9e5a3dfa84e6a3551df166d1?rik=%2bnGtinL3S4yiQw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_427321.png&ehk=iOpIyJR9ZYRPQdmrKfk38tSoWSnsA8Cs8fTh%2b%2fMG5zk%3d&risl=&pid=ImgRaw&r=0">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row green">
+      <div class="four columns">
+        <img class="avatar" src="https://th.bing.com/th/id/R.20c749526efa11e1db84cd80cfff5dd4?rik=EkyWvTKg8L%2faeQ&riu=http%3a%2f%2fgetdrawings.com%2ffree-icon%2fmale-avatar-icon-52.png&ehk=SJkUC4VfEiO1LZBgSQxiyLnfE6bSXlchsZTZjBLT75M%3d&risl=&pid=ImgRaw&r=0">
+      </div>
+      <div class="eight columns">
+        <h2 class="bio">About Me</h2>
+        <p class="bio">I like cookies.<br>I like cheese.<br>Soccer is fun.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <ul class="social">
+          <li class="facebook"><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li class="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <p class="copyright">&copy; 2021 Christopher Hanna. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    var allText = ["Welcome to", "Christopher Hanna's", "Portfolio"];
+
+    var currentIndex0 = 0;
+    var currentIndex1 = 0;
+    var currentIndex2 = 0;
+
+    var textHeader0 = document.getElementById("typetex0");
+    var textHeader1 = document.getElementById("typetex1");
+    var textHeader2 = document.getElementById("typetex2");
+
+    var myVar0;
+    var myVar1;
+    var myVar2;
+
+    function add0() {
+      var text = allText[0].substring(0, currentIndex0 + 1);
+      textHeader0.innerHTML = ">>" + text;
+      currentIndex0 = currentIndex0 + 1;
+
+      if(text === allText[0]) {
+        clearInterval(myVar0);
+
+        setTimeout(function() {
+          myVar0 = setInterval(remove0, 50);
+        }, 1000)
+      }
+    }
+
+    function remove0() {
+      var text = allText[0].substring(0, currentIndex0 - 1);
+      textHeader0.innerHTML = ">>" + text;
+      currentIndex0 = currentIndex0 - 1;
+
+      if(text === "") {
+        clearInterval(myVar0);
+
+        setTimeout(function() {
+          myVar0 = setInterval(add0, 100);
+        }, 200)
+      }
+    }
+
+    function add1() {
+      var text = allText[1].substring(0, currentIndex1 + 1);
+      textHeader1.innerHTML = ">>" + text;
+      currentIndex1 = currentIndex1 + 1;
+
+      if(text === allText[1]) {
+        clearInterval(myVar1);
+
+        setTimeout(function() {
+          myVar1 = setInterval(remove1, 50);
+        }, 1000)
+      }
+    }
+
+    function remove1() {
+      var text = allText[1].substring(0, currentIndex1 - 1);
+      textHeader1.innerHTML = ">>" + text;
+      currentIndex1 = currentIndex1 - 1;
+
+      if(text === "") {
+        clearInterval(myVar1);
+
+        setTimeout(function() {
+          myVar1 = setInterval(add1, 100);
+        }, 200)
+      }
+    }
+
+    function add2() {
+      var text = allText[2].substring(0, currentIndex2 + 1);
+      textHeader2.innerHTML = ">>" + text;
+      currentIndex2 = currentIndex2 + 1;
+
+      if(text === allText[2]) {
+        clearInterval(myVar2);
+
+        setTimeout(function() {
+          myVar2 = setInterval(remove2, 50);
+        }, 1000)
+      }
+    }
+
+    function remove2() {
+      var text = allText[2].substring(0, currentIndex2 - 1);
+      textHeader2.innerHTML = ">>" + text;
+      currentIndex2 = currentIndex2 - 1;
+
+      if(text === "") {
+        clearInterval(myVar2);
+
+        setTimeout(function() {
+          myVar2 = setInterval(add2, 100);
+        }, 200)
+      }
+    }
+
+    add0();
+    remove0();
+    add1();
+    remove1();
+    add2();
+    remove2();
+  </script>
+</body>
+</html>
+
